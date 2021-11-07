@@ -4,4 +4,10 @@ Delay
 Press:131+114
 PrintLine:powershell
 Delay
-PrintLine:clear; while($true){write -nonewline "`ryou"; sleep 2; write -nonewline "`rhave"; sleep 2; write -nonewline "`rbeen"; sleep 2;write -nonewline "`rpawned"; sleep 2}
+Press:128++
+Press:128++
+Press:128++
+Press:128++
+Press:128++
+Press:128++
+PrintLine:clear; while($true){write-Host -nonewline "`ryou"; sleep 2; write-Host -nonewline "`rhave"; sleep 2; write-Host -nonewline "`rbeen"; sleep 2;write-Host -nonewline "`rpawned"; sleep 2}
